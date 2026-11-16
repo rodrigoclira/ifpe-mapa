@@ -505,7 +505,20 @@ main {
 .popup-card__address {
   font-size: var(--fs-xs);
   color: var(--text-secondary);
+  margin: 0 0 var(--space-1);
+}
+
+.popup-card__location-note {
+  font-size: var(--fs-xs);
   margin: 0 0 var(--space-3);
+}
+
+.popup-card__location-note--exact {
+  color: var(--accent-strong);
+}
+
+.popup-card__location-note--approx {
+  color: var(--ead);
 }
 
 .popup-card__section {

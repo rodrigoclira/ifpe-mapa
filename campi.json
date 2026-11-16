@@ -5,15 +5,49 @@
     "tipo": "campus",
     "cidade": "Recife",
     "endereco": "Av. Prof. Luiz Freire, 500, Cidade Universitária, Recife - PE, CEP 50740-545",
-    "lat": -8.0495,
-    "lon": -34.9513,
+    "lat": -8.0601622,
+    "lon": -34.9506201,
     "portalUrl": "https://portal.ifpe.edu.br/recife/",
     "cursos": {
-      "tecnicoIntegrado": ["Edificações", "Eletrônica", "Eletrotécnica", "Mecânica", "Química", "Saneamento", "Segurança do Trabalho"],
-      "tecnicoSubsequente": ["Edificações", "Eletrônica", "Eletrotécnica", "Mecânica", "Química", "Refrigeração e Climatização", "Saneamento", "Segurança do Trabalho", "Telecomunicações"],
-      "superior": ["Tecnólogo em Análise e Desenvolvimento de Sistemas", "Tecnólogo em Design Gráfico", "Tecnólogo em Gestão Ambiental", "Tecnólogo em Gestão de Turismo", "Tecnólogo em Radiologia", "Licenciatura em Geografia", "Bacharelado em Engenharia Civil", "Bacharelado em Engenharia Mecânica"],
-      "outros": ["PROEJA em Refrigeração e Climatização", "Especialização em Práticas Interpretativas em Música Popular (Frevo)", "Especialização em Educação Ambiental e Cultural", "Especialização em Sustentabilidade Urbana", "Mestrado Profissional em Gestão Ambiental"]
-    }
+      "tecnicoIntegrado": [
+        "Edificações",
+        "Eletrônica",
+        "Eletrotécnica",
+        "Mecânica",
+        "Química",
+        "Saneamento",
+        "Segurança do Trabalho"
+      ],
+      "tecnicoSubsequente": [
+        "Edificações",
+        "Eletrônica",
+        "Eletrotécnica",
+        "Mecânica",
+        "Química",
+        "Refrigeração e Climatização",
+        "Saneamento",
+        "Segurança do Trabalho",
+        "Telecomunicações"
+      ],
+      "superior": [
+        "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+        "Tecnólogo em Design Gráfico",
+        "Tecnólogo em Gestão Ambiental",
+        "Tecnólogo em Gestão de Turismo",
+        "Tecnólogo em Radiologia",
+        "Licenciatura em Geografia",
+        "Bacharelado em Engenharia Civil",
+        "Bacharelado em Engenharia Mecânica"
+      ],
+      "outros": [
+        "PROEJA em Refrigeração e Climatização",
+        "Especialização em Práticas Interpretativas em Música Popular (Frevo)",
+        "Especialização em Educação Ambiental e Cultural",
+        "Especialização em Sustentabilidade Urbana",
+        "Mestrado Profissional em Gestão Ambiental"
+      ]
+    },
+    "localizacaoExata": true
   },
   {
     "id": "abreu-e-lima",
@@ -21,15 +55,27 @@
     "tipo": "campus",
     "cidade": "Abreu e Lima",
     "endereco": "Rua Jaguaribe, s/n, Alto da Bela Vista, Abreu e Lima - PE",
-    "lat": -7.9007,
-    "lon": -34.8984,
+    "lat": -7.9130079,
+    "lon": -34.8970509,
     "portalUrl": "https://portal.ifpe.edu.br/abreu-e-lima/",
     "cursos": {
-      "tecnicoIntegrado": ["Segurança do Trabalho"],
-      "tecnicoSubsequente": ["Segurança do Trabalho", "Enfermagem"],
-      "superior": ["Tecnólogo em Gestão Hospitalar"],
-      "outros": ["Especialização Técnica em Enfermagem do Trabalho", "PROEJA em Alimentador de Linha de Produção", "FIC em Agente Comunitário de Saúde"]
-    }
+      "tecnicoIntegrado": [
+        "Segurança do Trabalho"
+      ],
+      "tecnicoSubsequente": [
+        "Segurança do Trabalho",
+        "Enfermagem"
+      ],
+      "superior": [
+        "Tecnólogo em Gestão Hospitalar"
+      ],
+      "outros": [
+        "Especialização Técnica em Enfermagem do Trabalho",
+        "PROEJA em Alimentador de Linha de Produção",
+        "FIC em Agente Comunitário de Saúde"
+      ]
+    },
+    "localizacaoExata": true
   },
   {
     "id": "afogados-da-ingazeira",
@@ -37,15 +83,31 @@
     "tipo": "campus",
     "cidade": "Afogados da Ingazeira",
     "endereco": "Rua Edson Barbosa de Araújo, s/n, Manoela Valadares, Afogados da Ingazeira - PE, CEP 56800-000",
-    "lat": -7.7431,
-    "lon": -37.6310,
+    "lat": -7.7648058,
+    "lon": -37.6315649,
     "portalUrl": "https://portal.ifpe.edu.br/afogados/",
     "cursos": {
-      "tecnicoIntegrado": ["Informática", "Saneamento", "Eletrotécnica"],
-      "tecnicoSubsequente": ["Agroindústria", "Eletroeletrônica", "Saneamento"],
-      "superior": ["Licenciatura em Computação", "Bacharelado em Engenharia Civil"],
-      "outros": ["PROEJA em Suporte e Manutenção em Computadores", "PROEJA em Panificação e Confeitaria", "Especialização em Educação do Campo"]
-    }
+      "tecnicoIntegrado": [
+        "Informática",
+        "Saneamento",
+        "Eletrotécnica"
+      ],
+      "tecnicoSubsequente": [
+        "Agroindústria",
+        "Eletroeletrônica",
+        "Saneamento"
+      ],
+      "superior": [
+        "Licenciatura em Computação",
+        "Bacharelado em Engenharia Civil"
+      ],
+      "outros": [
+        "PROEJA em Suporte e Manutenção em Computadores",
+        "PROEJA em Panificação e Confeitaria",
+        "Especialização em Educação do Campo"
+      ]
+    },
+    "localizacaoExata": true
   },
   {
     "id": "barreiros",
@@ -57,11 +119,28 @@
     "lon": -35.1832,
     "portalUrl": "https://portal.ifpe.edu.br/barreiros/",
     "cursos": {
-      "tecnicoIntegrado": ["Alimentos", "Agropecuária", "Desenvolvimento de Sistemas"],
-      "tecnicoSubsequente": ["Hospedagem", "Instrumento Musical"],
-      "superior": ["Tecnólogo em Agroecologia", "Licenciatura em Química"],
-      "outros": ["PROEJA em Auxiliar Técnico em Agropecuária", "PROEJA Agricultor Familiar", "PROEJA Operador de Processamento de Frutas e Hortaliças", "PROEJA Operador de Computador", "Especialização em Matemática"]
-    }
+      "tecnicoIntegrado": [
+        "Alimentos",
+        "Agropecuária",
+        "Desenvolvimento de Sistemas"
+      ],
+      "tecnicoSubsequente": [
+        "Hospedagem",
+        "Instrumento Musical"
+      ],
+      "superior": [
+        "Tecnólogo em Agroecologia",
+        "Licenciatura em Química"
+      ],
+      "outros": [
+        "PROEJA em Auxiliar Técnico em Agropecuária",
+        "PROEJA Agricultor Familiar",
+        "PROEJA Operador de Processamento de Frutas e Hortaliças",
+        "PROEJA Operador de Computador",
+        "Especialização em Matemática"
+      ]
+    },
+    "localizacaoExata": false
   },
   {
     "id": "belo-jardim",
@@ -69,15 +148,31 @@
     "tipo": "campus",
     "cidade": "Belo Jardim",
     "endereco": "Av. Sebastião Rodrigues da Costa, s/n, São Pedro, Belo Jardim - PE, CEP 55155-730",
-    "lat": -8.3231,
-    "lon": -36.4156,
+    "lat": -8.3185248,
+    "lon": -36.417423,
     "portalUrl": "https://portal.ifpe.edu.br/belo-jardim/",
     "cursos": {
-      "tecnicoIntegrado": ["Agroindústria", "Agropecuária", "Informática para Internet"],
-      "tecnicoSubsequente": ["Agroindústria", "Agropecuária", "Enfermagem", "Informática para Internet"],
-      "superior": ["Licenciatura em Música", "Bacharelado em Engenharia de Software"],
-      "outros": ["Qualificação Profissional em Operador Industrial de Alimentos", "Especialização em Enfermagem em Saúde da Família e Comunidade"]
-    }
+      "tecnicoIntegrado": [
+        "Agroindústria",
+        "Agropecuária",
+        "Informática para Internet"
+      ],
+      "tecnicoSubsequente": [
+        "Agroindústria",
+        "Agropecuária",
+        "Enfermagem",
+        "Informática para Internet"
+      ],
+      "superior": [
+        "Licenciatura em Música",
+        "Bacharelado em Engenharia de Software"
+      ],
+      "outros": [
+        "Qualificação Profissional em Operador Industrial de Alimentos",
+        "Especialização em Enfermagem em Saúde da Família e Comunidade"
+      ]
+    },
+    "localizacaoExata": true
   },
   {
     "id": "cabo-de-santo-agostinho",
@@ -85,15 +180,33 @@
     "tipo": "campus",
     "cidade": "Cabo de Santo Agostinho",
     "endereco": "Rua Sebastião Joventino, s/n, Presidente Vargas (antiga Destilaria Central), Cabo de Santo Agostinho - PE, CEP 54510-110",
-    "lat": -8.2868,
-    "lon": -35.0387,
+    "lat": -8.3127877,
+    "lon": -35.0683759,
     "portalUrl": "https://portal.ifpe.edu.br/cabo/",
     "cursos": {
       "tecnicoIntegrado": [],
-      "tecnicoSubsequente": ["Logística", "Meio Ambiente", "Cozinha", "Hospedagem", "Guia de Turismo (EAD)"],
-      "superior": ["Bacharelado em Administração", "Bacharelado em Engenharia Ambiental e Sanitária", "Tecnólogo em Hotelaria", "Tecnólogo em Gastronomia", "Tecnólogo em Logística"],
-      "outros": ["PROEJA em Almoxarife", "PROEJA em Agente de Informações Turísticas", "FIC em Inglês Básico e Espanhol Básico", "Especialização em Gestão Estratégica em Logística"]
-    }
+      "tecnicoSubsequente": [
+        "Logística",
+        "Meio Ambiente",
+        "Cozinha",
+        "Hospedagem",
+        "Guia de Turismo (EAD)"
+      ],
+      "superior": [
+        "Bacharelado em Administração",
+        "Bacharelado em Engenharia Ambiental e Sanitária",
+        "Tecnólogo em Hotelaria",
+        "Tecnólogo em Gastronomia",
+        "Tecnólogo em Logística"
+      ],
+      "outros": [
+        "PROEJA em Almoxarife",
+        "PROEJA em Agente de Informações Turísticas",
+        "FIC em Inglês Básico e Espanhol Básico",
+        "Especialização em Gestão Estratégica em Logística"
+      ]
+    },
+    "localizacaoExata": true
   },
   {
     "id": "caruaru",
@@ -105,11 +218,27 @@
     "lon": -36.0261,
     "portalUrl": "https://portal.ifpe.edu.br/caruaru/",
     "cursos": {
-      "tecnicoIntegrado": ["Edificações", "Mecatrônica", "Segurança do Trabalho"],
-      "tecnicoSubsequente": ["Edificações", "Mecatrônica", "Segurança do Trabalho"],
-      "superior": ["Bacharelado em Engenharia Mecânica"],
-      "outros": ["PROEJA em Almoxarife de Obras", "PROEJA Microempreendedor Individual", "Especialização em Engenharia de Segurança do Trabalho", "Especialização em Interdisciplinaridade em Educação e Ciências Humanas"]
-    }
+      "tecnicoIntegrado": [
+        "Edificações",
+        "Mecatrônica",
+        "Segurança do Trabalho"
+      ],
+      "tecnicoSubsequente": [
+        "Edificações",
+        "Mecatrônica",
+        "Segurança do Trabalho"
+      ],
+      "superior": [
+        "Bacharelado em Engenharia Mecânica"
+      ],
+      "outros": [
+        "PROEJA em Almoxarife de Obras",
+        "PROEJA Microempreendedor Individual",
+        "Especialização em Engenharia de Segurança do Trabalho",
+        "Especialização em Interdisciplinaridade em Educação e Ciências Humanas"
+      ]
+    },
+    "localizacaoExata": false
   },
   {
     "id": "garanhuns",
@@ -121,11 +250,23 @@
     "lon": -36.4638,
     "portalUrl": "https://portal.ifpe.edu.br/garanhuns/",
     "cursos": {
-      "tecnicoIntegrado": ["Meio Ambiente", "Informática", "Eletroeletrônica"],
-      "tecnicoSubsequente": ["Eletroeletrônica"],
-      "superior": ["Bacharelado em Engenharia Elétrica", "Tecnólogo em Análise e Desenvolvimento de Sistemas"],
-      "outros": ["Especialização em Inovação e Desenvolvimento de Software para Web e Dispositivos Móveis"]
-    }
+      "tecnicoIntegrado": [
+        "Meio Ambiente",
+        "Informática",
+        "Eletroeletrônica"
+      ],
+      "tecnicoSubsequente": [
+        "Eletroeletrônica"
+      ],
+      "superior": [
+        "Bacharelado em Engenharia Elétrica",
+        "Tecnólogo em Análise e Desenvolvimento de Sistemas"
+      ],
+      "outros": [
+        "Especialização em Inovação e Desenvolvimento de Software para Web e Dispositivos Móveis"
+      ]
+    },
+    "localizacaoExata": false
   },
   {
     "id": "igarassu",
@@ -133,15 +274,26 @@
     "tipo": "campus",
     "cidade": "Igarassu",
     "endereco": "Rodovia BR-101 Norte, Km 29, Engenho Ubu, Zona Rural, Igarassu - PE, CEP 53659-899",
-    "lat": -7.8288,
-    "lon": -34.9013,
+    "lat": -7.7324909,
+    "lon": -34.9433084,
     "portalUrl": "https://portal.ifpe.edu.br/igarassu/",
     "cursos": {
       "tecnicoIntegrado": [],
-      "tecnicoSubsequente": ["Informática para Internet", "Logística"],
-      "superior": ["Tecnólogo em Gestão da Qualidade", "Tecnólogo em Sistemas para Internet", "Bacharelado em Administração"],
-      "outros": ["PROEJA em Almoxarife", "PROEJA Operador de Computador"]
-    }
+      "tecnicoSubsequente": [
+        "Informática para Internet",
+        "Logística"
+      ],
+      "superior": [
+        "Tecnólogo em Gestão da Qualidade",
+        "Tecnólogo em Sistemas para Internet",
+        "Bacharelado em Administração"
+      ],
+      "outros": [
+        "PROEJA em Almoxarife",
+        "PROEJA Operador de Computador"
+      ]
+    },
+    "localizacaoExata": true
   },
   {
     "id": "ipojuca",
@@ -149,15 +301,27 @@
     "tipo": "campus",
     "cidade": "Ipojuca",
     "endereco": "Rodovia PE-60, Km 14, Califórnia, Ipojuca - PE, CEP 55590-000",
-    "lat": -8.3930,
-    "lon": -35.0609,
+    "lat": -8.3843051,
+    "lon": -35.0412788,
     "portalUrl": "https://portal.ifpe.edu.br/ipojuca/",
     "cursos": {
-      "tecnicoIntegrado": ["Mecânica", "Segurança do Trabalho"],
-      "tecnicoSubsequente": ["Automação Industrial", "Mecânica", "Química", "Segurança do Trabalho"],
-      "superior": ["Licenciatura em Química", "Bacharelado em Engenharia Mecânica"],
+      "tecnicoIntegrado": [
+        "Mecânica",
+        "Segurança do Trabalho"
+      ],
+      "tecnicoSubsequente": [
+        "Automação Industrial",
+        "Mecânica",
+        "Química",
+        "Segurança do Trabalho"
+      ],
+      "superior": [
+        "Licenciatura em Química",
+        "Bacharelado em Engenharia Mecânica"
+      ],
       "outros": []
-    }
+    },
+    "localizacaoExata": true
   },
   {
     "id": "jaboatao-dos-guararapes",
@@ -165,15 +329,28 @@
     "tipo": "campus",
     "cidade": "Jaboatão dos Guararapes",
     "endereco": "Rua José Bras Moscow, 252, Piedade, Jaboatão dos Guararapes - PE, CEP 54420-395",
-    "lat": -8.1747,
-    "lon": -34.9199,
+    "lat": -8.1144324,
+    "lon": -35.0304352,
     "portalUrl": "https://portal.ifpe.edu.br/jaboatao/",
     "cursos": {
-      "tecnicoIntegrado": ["Desenvolvimento de Sistemas"],
-      "tecnicoSubsequente": ["Informática para Internet", "Qualidade", "Comércio e Gestão de Negócios", "Administração"],
-      "superior": ["Tecnólogo em Análise e Desenvolvimento de Sistemas"],
-      "outros": ["Especialização em Gestão e Qualidade em TIC", "Especialização em Desenvolvimento, Inovação e Tecnologias Emergentes"]
-    }
+      "tecnicoIntegrado": [
+        "Desenvolvimento de Sistemas"
+      ],
+      "tecnicoSubsequente": [
+        "Informática para Internet",
+        "Qualidade",
+        "Comércio e Gestão de Negócios",
+        "Administração"
+      ],
+      "superior": [
+        "Tecnólogo em Análise e Desenvolvimento de Sistemas"
+      ],
+      "outros": [
+        "Especialização em Gestão e Qualidade em TIC",
+        "Especialização em Desenvolvimento, Inovação e Tecnologias Emergentes"
+      ]
+    },
+    "localizacaoExata": true
   },
   {
     "id": "olinda",
@@ -181,15 +358,26 @@
     "tipo": "campus",
     "cidade": "Olinda",
     "endereco": "Av. Fagundes Varela, 375, Jardim Atlântico, Olinda - PE, CEP 53140-080",
-    "lat": -8.0102,
-    "lon": -34.8545,
+    "lat": -7.9778329,
+    "lon": -34.8410709,
     "portalUrl": "https://portal.ifpe.edu.br/olinda/",
     "cursos": {
-      "tecnicoIntegrado": ["Computação Gráfica"],
-      "tecnicoSubsequente": ["Artes Visuais", "Computação Gráfica"],
-      "superior": ["Tecnólogo em Produção Multimídia"],
-      "outros": ["PROEJA em Editor de Maquetes Eletrônicas", "Mestrado Profissional em Educação Profissional e Tecnológica (ProfEPT)"]
-    }
+      "tecnicoIntegrado": [
+        "Computação Gráfica"
+      ],
+      "tecnicoSubsequente": [
+        "Artes Visuais",
+        "Computação Gráfica"
+      ],
+      "superior": [
+        "Tecnólogo em Produção Multimídia"
+      ],
+      "outros": [
+        "PROEJA em Editor de Maquetes Eletrônicas",
+        "Mestrado Profissional em Educação Profissional e Tecnológica (ProfEPT)"
+      ]
+    },
+    "localizacaoExata": true
   },
   {
     "id": "palmares",
@@ -197,15 +385,25 @@
     "tipo": "campus",
     "cidade": "Palmares",
     "endereco": "Av. José Pretestato de Santana, Quadra Q, 51, Bairro Quilombo I, Palmares - PE, CEP 55540-000",
-    "lat": -8.6842,
-    "lon": -35.5890,
+    "lat": -8.6851965,
+    "lon": -35.5771752,
     "portalUrl": "https://portal.ifpe.edu.br/palmares/",
     "cursos": {
-      "tecnicoIntegrado": ["Informática para Internet"],
-      "tecnicoSubsequente": ["Manutenção e Suporte em Informática", "Redes de Computadores"],
-      "superior": ["Tecnólogo em Análise e Desenvolvimento de Sistemas"],
-      "outros": ["MBA em Empreendedorismo, Gestão e Inovação"]
-    }
+      "tecnicoIntegrado": [
+        "Informática para Internet"
+      ],
+      "tecnicoSubsequente": [
+        "Manutenção e Suporte em Informática",
+        "Redes de Computadores"
+      ],
+      "superior": [
+        "Tecnólogo em Análise e Desenvolvimento de Sistemas"
+      ],
+      "outros": [
+        "MBA em Empreendedorismo, Gestão e Inovação"
+      ]
+    },
+    "localizacaoExata": true
   },
   {
     "id": "paulista",
@@ -213,15 +411,28 @@
     "tipo": "campus",
     "cidade": "Paulista",
     "endereco": "Av. Prefeito Geraldo Pinho Alves, 1400, Maranguape I, Paulista - PE",
-    "lat": -7.9180,
-    "lon": -34.8975,
+    "lat": -7.9449844,
+    "lon": -34.8583398,
     "portalUrl": "https://portal.ifpe.edu.br/paulista/",
     "cursos": {
-      "tecnicoIntegrado": ["Administração", "Informática para Internet"],
-      "tecnicoSubsequente": ["Administração", "Manutenção e Suporte em Informática"],
-      "superior": ["Tecnólogo em Análise e Desenvolvimento de Sistemas", "Tecnólogo em Processos Gerenciais", "Bacharelado em Administração"],
-      "outros": ["MBA em Gestão Empresarial"]
-    }
+      "tecnicoIntegrado": [
+        "Administração",
+        "Informática para Internet"
+      ],
+      "tecnicoSubsequente": [
+        "Administração",
+        "Manutenção e Suporte em Informática"
+      ],
+      "superior": [
+        "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+        "Tecnólogo em Processos Gerenciais",
+        "Bacharelado em Administração"
+      ],
+      "outros": [
+        "MBA em Gestão Empresarial"
+      ]
+    },
+    "localizacaoExata": true
   },
   {
     "id": "pesqueira",
@@ -229,15 +440,29 @@
     "tipo": "campus",
     "cidade": "Pesqueira",
     "endereco": "Rodovia BR-232, Km 214, Prado, Pesqueira - PE, CEP 55200-000",
-    "lat": -8.3580,
-    "lon": -36.6978,
+    "lat": -8.3667062,
+    "lon": -36.6802393,
     "portalUrl": "https://portal.ifpe.edu.br/pesqueira/",
     "cursos": {
-      "tecnicoIntegrado": ["Edificações", "Meio Ambiente", "Eletrotécnica"],
-      "tecnicoSubsequente": ["Edificações", "Eletrotécnica"],
-      "superior": ["Licenciatura em Física", "Licenciatura em Matemática", "Licenciatura em Pedagogia Intercultural Indígena", "Bacharelado em Enfermagem", "Bacharelado em Engenharia Elétrica"],
+      "tecnicoIntegrado": [
+        "Edificações",
+        "Meio Ambiente",
+        "Eletrotécnica"
+      ],
+      "tecnicoSubsequente": [
+        "Edificações",
+        "Eletrotécnica"
+      ],
+      "superior": [
+        "Licenciatura em Física",
+        "Licenciatura em Matemática",
+        "Licenciatura em Pedagogia Intercultural Indígena",
+        "Bacharelado em Enfermagem",
+        "Bacharelado em Engenharia Elétrica"
+      ],
       "outros": []
-    }
+    },
+    "localizacaoExata": true
   },
   {
     "id": "vitoria-de-santo-antao",
@@ -245,15 +470,34 @@
     "tipo": "campus",
     "cidade": "Vitória de Santo Antão",
     "endereco": "Fazenda Terra Preta, s/n, Zona Rural, Vitória de Santo Antão - PE, CEP 55602-000",
-    "lat": -8.1282,
-    "lon": -35.2976,
+    "lat": -8.1009312,
+    "lon": -35.2918326,
     "portalUrl": "https://portal.ifpe.edu.br/vitoria/",
     "cursos": {
-      "tecnicoIntegrado": ["Agroindústria", "Agropecuária", "Química"],
-      "tecnicoSubsequente": ["Agricultura", "Agroindústria", "Zootecnia"],
-      "superior": ["Licenciatura em Química", "Segunda Licenciatura em Educação Especial Inclusiva", "Bacharelado em Agronomia"],
-      "outros": ["PROEJA em Agricultura", "PROEJA em Manutenção e Suporte em Informática", "Mestrado Profissional em Filosofia", "Especialização em Ciências Humanas/Filosofia/Educação", "Especialização em Tecnologias Sustentáveis nas Ciências Agrárias"]
-    }
+      "tecnicoIntegrado": [
+        "Agroindústria",
+        "Agropecuária",
+        "Química"
+      ],
+      "tecnicoSubsequente": [
+        "Agricultura",
+        "Agroindústria",
+        "Zootecnia"
+      ],
+      "superior": [
+        "Licenciatura em Química",
+        "Segunda Licenciatura em Educação Especial Inclusiva",
+        "Bacharelado em Agronomia"
+      ],
+      "outros": [
+        "PROEJA em Agricultura",
+        "PROEJA em Manutenção e Suporte em Informática",
+        "Mestrado Profissional em Filosofia",
+        "Especialização em Ciências Humanas/Filosofia/Educação",
+        "Especialização em Tecnologias Sustentáveis nas Ciências Agrárias"
+      ]
+    },
+    "localizacaoExata": true
   },
   {
     "id": "polo-ead-aguas-belas",
@@ -264,7 +508,15 @@
     "lat": -9.1128,
     "lon": -37.1278,
     "portalUrl": "https://portal.ifpe.edu.br/ead/",
-    "cursos": { "tecnicoIntegrado": [], "tecnicoSubsequente": [], "superior": [], "outros": ["Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"] }
+    "cursos": {
+      "tecnicoIntegrado": [],
+      "tecnicoSubsequente": [],
+      "superior": [],
+      "outros": [
+        "Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"
+      ]
+    },
+    "localizacaoExata": false
   },
   {
     "id": "polo-ead-arcoverde",
@@ -275,7 +527,15 @@
     "lat": -8.4197,
     "lon": -37.0569,
     "portalUrl": "https://portal.ifpe.edu.br/ead/",
-    "cursos": { "tecnicoIntegrado": [], "tecnicoSubsequente": [], "superior": [], "outros": ["Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"] }
+    "cursos": {
+      "tecnicoIntegrado": [],
+      "tecnicoSubsequente": [],
+      "superior": [],
+      "outros": [
+        "Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"
+      ]
+    },
+    "localizacaoExata": false
   },
   {
     "id": "polo-ead-carpina",
@@ -286,7 +546,15 @@
     "lat": -7.8494,
     "lon": -35.2425,
     "portalUrl": "https://portal.ifpe.edu.br/ead/",
-    "cursos": { "tecnicoIntegrado": [], "tecnicoSubsequente": [], "superior": [], "outros": ["Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"] }
+    "cursos": {
+      "tecnicoIntegrado": [],
+      "tecnicoSubsequente": [],
+      "superior": [],
+      "outros": [
+        "Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"
+      ]
+    },
+    "localizacaoExata": false
   },
   {
     "id": "polo-ead-fernando-de-noronha",
@@ -297,7 +565,15 @@
     "lat": -3.8551,
     "lon": -32.4297,
     "portalUrl": "https://portal.ifpe.edu.br/ead/",
-    "cursos": { "tecnicoIntegrado": [], "tecnicoSubsequente": [], "superior": [], "outros": ["Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"] }
+    "cursos": {
+      "tecnicoIntegrado": [],
+      "tecnicoSubsequente": [],
+      "superior": [],
+      "outros": [
+        "Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"
+      ]
+    },
+    "localizacaoExata": false
   },
   {
     "id": "polo-ead-gravata",
@@ -308,7 +584,15 @@
     "lat": -8.2017,
     "lon": -35.5631,
     "portalUrl": "https://portal.ifpe.edu.br/ead/",
-    "cursos": { "tecnicoIntegrado": [], "tecnicoSubsequente": [], "superior": [], "outros": ["Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"] }
+    "cursos": {
+      "tecnicoIntegrado": [],
+      "tecnicoSubsequente": [],
+      "superior": [],
+      "outros": [
+        "Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"
+      ]
+    },
+    "localizacaoExata": false
   },
   {
     "id": "polo-ead-jaboatao",
@@ -319,7 +603,15 @@
     "lat": -8.1569,
     "lon": -35.0036,
     "portalUrl": "https://portal.ifpe.edu.br/ead/",
-    "cursos": { "tecnicoIntegrado": [], "tecnicoSubsequente": [], "superior": [], "outros": ["Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"] }
+    "cursos": {
+      "tecnicoIntegrado": [],
+      "tecnicoSubsequente": [],
+      "superior": [],
+      "outros": [
+        "Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"
+      ]
+    },
+    "localizacaoExata": false
   },
   {
     "id": "polo-ead-lajedo",
@@ -327,10 +619,18 @@
     "tipo": "polo_ead",
     "cidade": "Lajedo",
     "endereco": "Escola Municipal Padre Antônio Barbosa, Av. Gov. Agamenon Magalhães, 252, Lajedo - PE, CEP 55385-000",
-    "lat": -8.6594,
-    "lon": -36.2500,
+    "lat": -8.6623819,
+    "lon": -36.3214008,
     "portalUrl": "https://portal.ifpe.edu.br/ead/",
-    "cursos": { "tecnicoIntegrado": [], "tecnicoSubsequente": [], "superior": [], "outros": ["Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"] }
+    "cursos": {
+      "tecnicoIntegrado": [],
+      "tecnicoSubsequente": [],
+      "superior": [],
+      "outros": [
+        "Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"
+      ]
+    },
+    "localizacaoExata": true
   },
   {
     "id": "polo-ead-limoeiro",
@@ -341,7 +641,15 @@
     "lat": -7.8756,
     "lon": -35.4489,
     "portalUrl": "https://portal.ifpe.edu.br/ead/",
-    "cursos": { "tecnicoIntegrado": [], "tecnicoSubsequente": [], "superior": [], "outros": ["Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"] }
+    "cursos": {
+      "tecnicoIntegrado": [],
+      "tecnicoSubsequente": [],
+      "superior": [],
+      "outros": [
+        "Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"
+      ]
+    },
+    "localizacaoExata": false
   },
   {
     "id": "polo-ead-palmares",
@@ -349,10 +657,18 @@
     "tipo": "polo_ead",
     "cidade": "Palmares",
     "endereco": "Escola Maquinista Amaro Monteiro, Rua do Eucalipto, s/n, Engenho Bom Destino, Palmares - PE, CEP 55540-000",
-    "lat": -8.6800,
-    "lon": -35.5950,
+    "lat": -8.68,
+    "lon": -35.595,
     "portalUrl": "https://portal.ifpe.edu.br/ead/",
-    "cursos": { "tecnicoIntegrado": [], "tecnicoSubsequente": [], "superior": [], "outros": ["Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"] }
+    "cursos": {
+      "tecnicoIntegrado": [],
+      "tecnicoSubsequente": [],
+      "superior": [],
+      "outros": [
+        "Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"
+      ]
+    },
+    "localizacaoExata": false
   },
   {
     "id": "polo-ead-pesqueira",
@@ -360,10 +676,18 @@
     "tipo": "polo_ead",
     "cidade": "Pesqueira",
     "endereco": "Rua Anísio Galvão, 36, Centro, Pesqueira - PE, CEP 55200-000",
-    "lat": -8.3610,
-    "lon": -36.6960,
+    "lat": -8.3583832,
+    "lon": -36.7003674,
     "portalUrl": "https://portal.ifpe.edu.br/ead/",
-    "cursos": { "tecnicoIntegrado": [], "tecnicoSubsequente": [], "superior": [], "outros": ["Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"] }
+    "cursos": {
+      "tecnicoIntegrado": [],
+      "tecnicoSubsequente": [],
+      "superior": [],
+      "outros": [
+        "Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"
+      ]
+    },
+    "localizacaoExata": true
   },
   {
     "id": "polo-ead-recife",
@@ -371,10 +695,18 @@
     "tipo": "polo_ead",
     "cidade": "Recife",
     "endereco": "Rua Gen. Vargas, 26, Iputinga, Recife - PE, CEP 50730-655",
-    "lat": -8.0434,
-    "lon": -34.9436,
+    "lat": -8.0450412,
+    "lon": -34.9434678,
     "portalUrl": "https://portal.ifpe.edu.br/ead/",
-    "cursos": { "tecnicoIntegrado": [], "tecnicoSubsequente": [], "superior": [], "outros": ["Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"] }
+    "cursos": {
+      "tecnicoIntegrado": [],
+      "tecnicoSubsequente": [],
+      "superior": [],
+      "outros": [
+        "Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"
+      ]
+    },
+    "localizacaoExata": true
   },
   {
     "id": "polo-ead-santa-cruz-do-capibaribe",
@@ -383,9 +715,17 @@
     "cidade": "Santa Cruz do Capibaribe",
     "endereco": "EREM Padre Zuzinha, Av. Vinte e Nove de Dezembro, 258, Centro, Santa Cruz do Capibaribe - PE, CEP 55192-235",
     "lat": -7.9597,
-    "lon": -36.2050,
+    "lon": -36.205,
     "portalUrl": "https://portal.ifpe.edu.br/ead/",
-    "cursos": { "tecnicoIntegrado": [], "tecnicoSubsequente": [], "superior": [], "outros": ["Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"] }
+    "cursos": {
+      "tecnicoIntegrado": [],
+      "tecnicoSubsequente": [],
+      "superior": [],
+      "outros": [
+        "Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"
+      ]
+    },
+    "localizacaoExata": false
   },
   {
     "id": "polo-ead-santana-do-ipanema",
@@ -396,7 +736,16 @@
     "lat": -9.3703,
     "lon": -37.2444,
     "portalUrl": "https://portal.ifpe.edu.br/ead/",
-    "cursos": { "tecnicoIntegrado": [], "tecnicoSubsequente": [], "superior": [], "outros": ["Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/", "Observação: único polo fora de Pernambuco (município de Alagoas)."] }
+    "cursos": {
+      "tecnicoIntegrado": [],
+      "tecnicoSubsequente": [],
+      "superior": [],
+      "outros": [
+        "Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/",
+        "Observação: único polo fora de Pernambuco (município de Alagoas)."
+      ]
+    },
+    "localizacaoExata": false
   },
   {
     "id": "polo-ead-sertania",
@@ -407,7 +756,15 @@
     "lat": -8.0756,
     "lon": -37.2653,
     "portalUrl": "https://portal.ifpe.edu.br/ead/",
-    "cursos": { "tecnicoIntegrado": [], "tecnicoSubsequente": [], "superior": [], "outros": ["Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"] }
+    "cursos": {
+      "tecnicoIntegrado": [],
+      "tecnicoSubsequente": [],
+      "superior": [],
+      "outros": [
+        "Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"
+      ]
+    },
+    "localizacaoExata": false
   },
   {
     "id": "polo-ead-surubim",
@@ -415,10 +772,18 @@
     "tipo": "polo_ead",
     "cidade": "Surubim",
     "endereco": "Rua Frei Ibiapina, São José, Surubim - PE, CEP 55750-000",
-    "lat": -7.8306,
-    "lon": -35.7556,
+    "lat": -7.8354001,
+    "lon": -35.7499126,
     "portalUrl": "https://portal.ifpe.edu.br/ead/",
-    "cursos": { "tecnicoIntegrado": [], "tecnicoSubsequente": [], "superior": [], "outros": ["Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"] }
+    "cursos": {
+      "tecnicoIntegrado": [],
+      "tecnicoSubsequente": [],
+      "superior": [],
+      "outros": [
+        "Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"
+      ]
+    },
+    "localizacaoExata": true
   },
   {
     "id": "polo-ead-timbauba",
@@ -426,9 +791,17 @@
     "tipo": "polo_ead",
     "cidade": "Timbaúba",
     "endereco": "Rua Santo Antônio, s/n, Sapucaia, Timbaúba - PE, CEP 55870-000",
-    "lat": -7.5042,
-    "lon": -35.3167,
+    "lat": -7.4998992,
+    "lon": -35.300516,
     "portalUrl": "https://portal.ifpe.edu.br/ead/",
-    "cursos": { "tecnicoIntegrado": [], "tecnicoSubsequente": [], "superior": [], "outros": ["Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"] }
+    "cursos": {
+      "tecnicoIntegrado": [],
+      "tecnicoSubsequente": [],
+      "superior": [],
+      "outros": [
+        "Modalidade a distância — consulte a oferta vigente em portal.ifpe.edu.br/ead/cursos/"
+      ]
+    },
+    "localizacaoExata": true
   }
 ]

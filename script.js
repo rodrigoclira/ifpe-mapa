@@ -74,6 +74,9 @@ function buildPopupHtml(unit) {
 
   html += `<div class="popup-card__body">`;
   html += `<p class="popup-card__address">${unit.cidade} — ${unit.endereco}</p>`;
+  html += unit.localizacaoExata
+    ? `<p class="popup-card__location-note popup-card__location-note--exact">📍 Localização exata (confirmada no OpenStreetMap)</p>`
+    : `<p class="popup-card__location-note popup-card__location-note--approx">📍 Localização aproximada (prédio ainda não mapeado — ponto no centro do município)</p>`;
 
   for (const [key, label] of Object.entries(CATEGORY_LABELS)) {
     const cursos = unit.cursos?.[key];
