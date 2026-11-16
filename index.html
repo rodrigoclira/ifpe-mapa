@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <script>
+    (function () {
+      var saved = localStorage.getItem("ifpe-theme");
+      if (saved === "dark" || saved === "light") {
+        document.documentElement.setAttribute("data-theme", saved);
+      }
+    })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Mapa dos Campi do IFPE</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <button type="button" id="drawer-toggle" class="icon-btn" aria-label="Abrir lista de campi"
+      aria-expanded="false" aria-controls="sidebar">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+        <path fill="currentColor" d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z" />
+      </svg>
+    </button>
+
+    <div class="header-text">
+      <h1>Mapa dos Campi do IFPE</h1>
+      <p>Instituto Federal de Educação, Ciência e Tecnologia de Pernambuco</p>
+    </div>
+
+    <button type="button" id="theme-toggle" class="icon-btn" aria-label="Alternar tema claro/escuro"
+      aria-pressed="false">
+      <svg class="icon-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+        <path fill="currentColor"
+          d="M12 4a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V5a1 1 0 0 1 1-1zm0 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8zm8 4a1 1 0 0 1-1 1h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1zM6 12a1 1 0 0 1-1 1H4a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1zm11.657 6.657a1 1 0 0 1-1.414 0l-.707-.707a1 1 0 1 1 1.414-1.414l.707.707a1 1 0 0 1 0 1.414zM8.464 7.05a1 1 0 0 1-1.414 0l-.707-.707A1 1 0 1 1 7.757 4.93l.707.707a1 1 0 0 1 0 1.414zm9.193-2.121a1 1 0 0 1 0 1.414l-.707.707A1 1 0 1 1 15.536 5.636l.707-.707a1 1 0 0 1 1.414 0zM7.05 15.536a1 1 0 0 1 0 1.414l-.707.707a1 1 0 0 1-1.414-1.414l.707-.707a1 1 0 0 1 1.414 0zM12 18a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0v-1a1 1 0 0 1 1-1z" />
+      </svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+        <path fill="currentColor"
+          d="M20.742 13.045a8.088 8.088 0 0 1-2.077.273c-4.464 0-8.083-3.62-8.083-8.084 0-1.33.322-2.587.892-3.694a.75.75 0 0 0-.9-1.064A10.083 10.083 0 1 0 22 14.282a.75.75 0 0 0-1.258-1.237z" />
+      </svg>
+    </button>
+  </header>
+
+  <div class="app-body">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-controls">
+        <input type="search" id="search-input" placeholder="Buscar campus ou cidade..." />
+        <div class="filter-buttons">
+          <button type="button" class="filter-btn active" data-filter="todos">Todos</button>
+          <button type="button" class="filter-btn" data-filter="campus">Campi</button>
+          <button type="button" class="filter-btn" data-filter="polo_ead">Polos EAD</button>
+        </div>
+      </div>
+
+      <div class="legend">
+        <span class="legend-item"><span class="dot dot-campus"></span> Campus presencial</span>
+        <span class="legend-item"><span class="dot dot-ead"></span> Polo de EAD</span>
+      </div>
+
+      <ul id="unit-list" class="unit-list"></ul>
+    </aside>
+
+    <div class="drawer-overlay" id="drawer-overlay"></div>
+
+    <main>
+      <div id="map"></div>
+    </main>
+  </div>
+
+  <footer class="app-footer">
+    Dados de endereços e cursos extraídos de
+    <a href="https://portal.ifpe.edu.br" target="_blank" rel="noopener">portal.ifpe.edu.br</a> (2026).
+    As coordenadas são estimativas obtidas a partir do endereço/CEP de cada unidade, não a localização exata do
+    prédio — use-as apenas como referência aproximada. Mapa gerado com
+    <a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a> e dados do
+    <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>.
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="script.js"></script>
+</body>
+</html>
