@@ -47,7 +47,9 @@
   <div class="app-body">
     <aside class="sidebar" id="sidebar">
       <div class="sidebar-controls">
-        <input type="search" id="search-input" placeholder="Buscar campus ou cidade..." />
+        <input type="search" id="search-input" list="course-suggestions"
+          placeholder="Buscar campus, cidade ou curso..." />
+        <datalist id="course-suggestions"></datalist>
         <div class="filter-buttons">
           <button type="button" class="filter-btn active" data-filter="todos">Todos</button>
           <button type="button" class="filter-btn" data-filter="campus">Campi</button>

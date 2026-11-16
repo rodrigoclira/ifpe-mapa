@@ -144,17 +144,27 @@ function initDrawer() {
   return { closeDrawer };
 }
 
+function getAllCourses(unit) {
+  return Object.values(unit.cursos || {}).flat();
+}
+
 async function init() {
   const response = await fetch("campi.json");
   const units = await response.json();
 
   const listEl = document.getElementById("unit-list");
   const searchInput = document.getElementById("search-input");
+  const courseSuggestions = document.getElementById("course-suggestions");
   const filterButtons = document.querySelectorAll(".filter-btn");
   const { closeDrawer } = initDrawer();
 
   const markersById = new Map();
   let activeFilter = "todos";
+
+  const allCourses = Array.from(new Set(units.flatMap(getAllCourses))).sort((a, b) =>
+    a.localeCompare(b, "pt-BR")
+  );
+  courseSuggestions.innerHTML = allCourses.map((course) => `<option value="${course}"></option>`).join("");
 
   units.forEach((unit) => {
     const marker = L.marker([unit.lat, unit.lon], { icon: createIcon(unit.tipo) }).addTo(map);
@@ -166,30 +176,34 @@ async function init() {
     const query = searchInput.value.trim().toLowerCase();
     listEl.innerHTML = "";
 
-    const filtered = units.filter((unit) => {
-      const matchesFilter = activeFilter === "todos" || unit.tipo === activeFilter;
-      const matchesQuery =
-        !query ||
-        unit.nome.toLowerCase().includes(query) ||
-        unit.cidade.toLowerCase().includes(query);
-      return matchesFilter && matchesQuery;
-    });
+    const filtered = units
+      .filter((unit) => activeFilter === "todos" || unit.tipo === activeFilter)
+      .map((unit) => {
+        if (!query) return { unit, matchedCourse: null };
+        if (unit.nome.toLowerCase().includes(query) || unit.cidade.toLowerCase().includes(query)) {
+          return { unit, matchedCourse: null };
+        }
+        const matchedCourse = getAllCourses(unit).find((course) => course.toLowerCase().includes(query));
+        return matchedCourse ? { unit, matchedCourse } : null;
+      })
+      .filter(Boolean);
 
     if (!filtered.length) {
-      listEl.innerHTML = '<li class="empty-state">Nenhuma unidade encontrada.</li>';
+      listEl.innerHTML = '<li class="empty-state">Nenhuma unidade ou curso encontrado.</li>';
       return;
     }
 
-    filtered.forEach((unit) => {
+    filtered.forEach(({ unit, matchedCourse }) => {
       const li = document.createElement("li");
       li.className = "unit-item";
       const dotClass = unit.tipo === "polo_ead" ? "dot-ead" : "dot-campus";
+      const subtitle = matchedCourse ? `Curso: ${matchedCourse}` : unit.cidade;
       li.innerHTML = `
         <button type="button">
           <span class="dot ${dotClass}"></span>
           <span class="unit-text">
             <strong>${unit.nome}</strong>
-            <span>${unit.cidade}</span>
+            <span>${subtitle}</span>
           </span>
         </button>
       `;
